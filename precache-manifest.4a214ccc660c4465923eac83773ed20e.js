@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e501e22635a43ee2d1b19e5f1c12400d",
+    "revision": "9d591dfbba27ca5c6b3278852a897697",
     "url": "/SitePortfolio/index.html"
   },
   {
-    "revision": "3c5ff8fafc4abd7fbddc",
+    "revision": "ac87cff6999409c23526",
     "url": "/SitePortfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "383d12639d9f03abf627",
+    "revision": "eafd23039b84f3a7935b",
     "url": "/SitePortfolio/static/css/main.6a496ef5.chunk.css"
   },
   {
-    "revision": "3c5ff8fafc4abd7fbddc",
-    "url": "/SitePortfolio/static/js/2.03ee9c57.chunk.js"
+    "revision": "ac87cff6999409c23526",
+    "url": "/SitePortfolio/static/js/2.b1dd1998.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/SitePortfolio/static/js/2.03ee9c57.chunk.js.LICENSE.txt"
+    "url": "/SitePortfolio/static/js/2.b1dd1998.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "383d12639d9f03abf627",
-    "url": "/SitePortfolio/static/js/main.48e1a60b.chunk.js"
+    "revision": "eafd23039b84f3a7935b",
+    "url": "/SitePortfolio/static/js/main.b61c34c2.chunk.js"
   },
   {
     "revision": "141d8d313dbfb50ccc44",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cbde587be57533c5f6e2b5bf5f9409d1",
     "url": "/SitePortfolio/static/media/B.cbde587b.jpeg"
+  },
+  {
+    "revision": "129f8caf6fad1f8282e564f42376c545",
+    "url": "/SitePortfolio/static/media/Resume-LABRY.129f8caf.pdf"
   },
   {
     "revision": "fe3deca6e3838e720242d7ab5442d6f6",
@@ -54,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e14a5d7b92e15898fa5c91b33eaedb7",
     "url": "/SitePortfolio/static/media/mini1.8e14a5d7.jpg"
+  },
+  {
+    "revision": "ddf8aa203943480bfe0268cdb09ffe02",
+    "url": "/SitePortfolio/static/media/mini2.ddf8aa20.jpg"
   }
 ]);
