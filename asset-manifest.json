@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SitePortfolio/static/css/main.fc832bbf.chunk.css",
-    "main.js": "/SitePortfolio/static/js/main.bd190239.chunk.js",
-    "main.js.map": "/SitePortfolio/static/js/main.bd190239.chunk.js.map",
+    "main.css": "/SitePortfolio/static/css/main.8540347a.chunk.css",
+    "main.js": "/SitePortfolio/static/js/main.70bfb5ec.chunk.js",
+    "main.js.map": "/SitePortfolio/static/js/main.70bfb5ec.chunk.js.map",
     "runtime-main.js": "/SitePortfolio/static/js/runtime-main.c9f10b5a.js",
     "runtime-main.js.map": "/SitePortfolio/static/js/runtime-main.c9f10b5a.js.map",
     "static/css/2.af3c1da9.chunk.css": "/SitePortfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4c663607.chunk.js": "/SitePortfolio/static/js/2.4c663607.chunk.js",
-    "static/js/2.4c663607.chunk.js.map": "/SitePortfolio/static/js/2.4c663607.chunk.js.map",
+    "static/js/2.81cbd4a6.chunk.js": "/SitePortfolio/static/js/2.81cbd4a6.chunk.js",
+    "static/js/2.81cbd4a6.chunk.js.map": "/SitePortfolio/static/js/2.81cbd4a6.chunk.js.map",
     "index.html": "/SitePortfolio/index.html",
-    "precache-manifest.337f1ab4a8a216aa760341908812fe36.js": "/SitePortfolio/precache-manifest.337f1ab4a8a216aa760341908812fe36.js",
+    "precache-manifest.1d14cbb4c8ed33fe06c3561420ca9b32.js": "/SitePortfolio/precache-manifest.1d14cbb4c8ed33fe06c3561420ca9b32.js",
     "service-worker.js": "/SitePortfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/SitePortfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.fc832bbf.chunk.css.map": "/SitePortfolio/static/css/main.fc832bbf.chunk.css.map",
-    "static/js/2.4c663607.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.4c663607.chunk.js.LICENSE.txt",
+    "static/css/main.8540347a.chunk.css.map": "/SitePortfolio/static/css/main.8540347a.chunk.css.map",
+    "static/js/2.81cbd4a6.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.81cbd4a6.chunk.js.LICENSE.txt",
     "static/media/A.jpg": "/SitePortfolio/static/media/A.a6aa64cf.jpg",
     "static/media/B.jpeg": "/SitePortfolio/static/media/B.cbde587b.jpeg",
     "static/media/Resume-LABRY.pdf": "/SitePortfolio/static/media/Resume-LABRY.129f8caf.pdf",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.c9f10b5a.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4c663607.chunk.js",
-    "static/css/main.fc832bbf.chunk.css",
-    "static/js/main.bd190239.chunk.js"
+    "static/js/2.81cbd4a6.chunk.js",
+    "static/css/main.8540347a.chunk.css",
+    "static/js/main.70bfb5ec.chunk.js"
   ]
 }
