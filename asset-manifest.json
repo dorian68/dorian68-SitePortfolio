@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SitePortfolio/static/css/main.54b8ea56.chunk.css",
+    "main.css": "/SitePortfolio/static/css/main.dbb8e5ea.chunk.css",
     "main.js": "/SitePortfolio/static/js/main.8de3ee2a.chunk.js",
     "main.js.map": "/SitePortfolio/static/js/main.8de3ee2a.chunk.js.map",
     "runtime-main.js": "/SitePortfolio/static/js/runtime-main.c9f10b5a.js",
@@ -9,10 +9,10 @@
     "static/js/2.da8be19c.chunk.js": "/SitePortfolio/static/js/2.da8be19c.chunk.js",
     "static/js/2.da8be19c.chunk.js.map": "/SitePortfolio/static/js/2.da8be19c.chunk.js.map",
     "index.html": "/SitePortfolio/index.html",
-    "precache-manifest.c654af2ac566a938a50d6203d62b508d.js": "/SitePortfolio/precache-manifest.c654af2ac566a938a50d6203d62b508d.js",
+    "precache-manifest.a12af91e6484a0f3be42a989c743ff33.js": "/SitePortfolio/precache-manifest.a12af91e6484a0f3be42a989c743ff33.js",
     "service-worker.js": "/SitePortfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/SitePortfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.54b8ea56.chunk.css.map": "/SitePortfolio/static/css/main.54b8ea56.chunk.css.map",
+    "static/css/main.dbb8e5ea.chunk.css.map": "/SitePortfolio/static/css/main.dbb8e5ea.chunk.css.map",
     "static/js/2.da8be19c.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.da8be19c.chunk.js.LICENSE.txt",
     "static/media/Atlantic_Caraibes.jpg": "/SitePortfolio/static/media/Atlantic_Caraibes.e840a5a6.jpg",
     "static/media/Resume-LABRY.pdf": "/SitePortfolio/static/media/Resume-LABRY.129f8caf.pdf",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.c9f10b5a.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.da8be19c.chunk.js",
-    "static/css/main.54b8ea56.chunk.css",
+    "static/css/main.dbb8e5ea.chunk.css",
     "static/js/main.8de3ee2a.chunk.js"
   ]
 }
