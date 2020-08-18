@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/SitePortfolio/static/css/main.54b8ea56.chunk.css",
-    "main.js": "/SitePortfolio/static/js/main.caadab9b.chunk.js",
-    "main.js.map": "/SitePortfolio/static/js/main.caadab9b.chunk.js.map",
+    "main.js": "/SitePortfolio/static/js/main.8de3ee2a.chunk.js",
+    "main.js.map": "/SitePortfolio/static/js/main.8de3ee2a.chunk.js.map",
     "runtime-main.js": "/SitePortfolio/static/js/runtime-main.c9f10b5a.js",
     "runtime-main.js.map": "/SitePortfolio/static/js/runtime-main.c9f10b5a.js.map",
     "static/css/2.af3c1da9.chunk.css": "/SitePortfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.dcae7ac3.chunk.js": "/SitePortfolio/static/js/2.dcae7ac3.chunk.js",
-    "static/js/2.dcae7ac3.chunk.js.map": "/SitePortfolio/static/js/2.dcae7ac3.chunk.js.map",
+    "static/js/2.da8be19c.chunk.js": "/SitePortfolio/static/js/2.da8be19c.chunk.js",
+    "static/js/2.da8be19c.chunk.js.map": "/SitePortfolio/static/js/2.da8be19c.chunk.js.map",
     "index.html": "/SitePortfolio/index.html",
-    "precache-manifest.24ac44262c423bb2508c5acab71601b3.js": "/SitePortfolio/precache-manifest.24ac44262c423bb2508c5acab71601b3.js",
+    "precache-manifest.c654af2ac566a938a50d6203d62b508d.js": "/SitePortfolio/precache-manifest.c654af2ac566a938a50d6203d62b508d.js",
     "service-worker.js": "/SitePortfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/SitePortfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.54b8ea56.chunk.css.map": "/SitePortfolio/static/css/main.54b8ea56.chunk.css.map",
-    "static/js/2.dcae7ac3.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.dcae7ac3.chunk.js.LICENSE.txt",
+    "static/js/2.da8be19c.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.da8be19c.chunk.js.LICENSE.txt",
     "static/media/Atlantic_Caraibes.jpg": "/SitePortfolio/static/media/Atlantic_Caraibes.e840a5a6.jpg",
     "static/media/Resume-LABRY.pdf": "/SitePortfolio/static/media/Resume-LABRY.129f8caf.pdf",
+    "static/media/Share100.jpg": "/SitePortfolio/static/media/Share100.731d6606.jpg",
     "static/media/liberty_statue.jpg": "/SitePortfolio/static/media/liberty_statue.4bfabe57.jpg",
     "static/media/logo.svg": "/SitePortfolio/static/media/logo.5d5d9eef.svg",
     "static/media/mini2.jpg": "/SitePortfolio/static/media/mini2.ddf8aa20.jpg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.c9f10b5a.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.dcae7ac3.chunk.js",
+    "static/js/2.da8be19c.chunk.js",
     "static/css/main.54b8ea56.chunk.css",
-    "static/js/main.caadab9b.chunk.js"
+    "static/js/main.8de3ee2a.chunk.js"
   ]
 }

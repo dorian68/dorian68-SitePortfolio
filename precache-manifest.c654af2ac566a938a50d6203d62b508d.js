@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1eef0401d49531402f447d7a6a0ca7ef",
+    "revision": "c8d0df97d14e241b4df9248e790b1019",
     "url": "/SitePortfolio/index.html"
   },
   {
-    "revision": "3ae5915d132089d82692",
+    "revision": "a5f68ce2e84a9b00e442",
     "url": "/SitePortfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "159bd0aabf86b2afd3fe",
+    "revision": "fa9be381069c99c05588",
     "url": "/SitePortfolio/static/css/main.54b8ea56.chunk.css"
   },
   {
-    "revision": "3ae5915d132089d82692",
-    "url": "/SitePortfolio/static/js/2.dcae7ac3.chunk.js"
+    "revision": "a5f68ce2e84a9b00e442",
+    "url": "/SitePortfolio/static/js/2.da8be19c.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/SitePortfolio/static/js/2.dcae7ac3.chunk.js.LICENSE.txt"
+    "url": "/SitePortfolio/static/js/2.da8be19c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "159bd0aabf86b2afd3fe",
-    "url": "/SitePortfolio/static/js/main.caadab9b.chunk.js"
+    "revision": "fa9be381069c99c05588",
+    "url": "/SitePortfolio/static/js/main.8de3ee2a.chunk.js"
   },
   {
     "revision": "141d8d313dbfb50ccc44",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "129f8caf6fad1f8282e564f42376c545",
     "url": "/SitePortfolio/static/media/Resume-LABRY.129f8caf.pdf"
+  },
+  {
+    "revision": "731d6606c6aacad4b8650cb77bc6c526",
+    "url": "/SitePortfolio/static/media/Share100.731d6606.jpg"
   },
   {
     "revision": "4bfabe5771f3ee1e085977e0e715d43b",
