@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SitePortfolio/static/css/main.f31e24d1.chunk.css",
+    "main.css": "/SitePortfolio/static/css/main.f5290fdc.chunk.css",
     "main.js": "/SitePortfolio/static/js/main.7ad2162f.chunk.js",
     "main.js.map": "/SitePortfolio/static/js/main.7ad2162f.chunk.js.map",
     "runtime-main.js": "/SitePortfolio/static/js/runtime-main.c9f10b5a.js",
@@ -9,10 +9,10 @@
     "static/js/2.da8be19c.chunk.js": "/SitePortfolio/static/js/2.da8be19c.chunk.js",
     "static/js/2.da8be19c.chunk.js.map": "/SitePortfolio/static/js/2.da8be19c.chunk.js.map",
     "index.html": "/SitePortfolio/index.html",
-    "precache-manifest.058af756bd2ef0ebede5054af64f2565.js": "/SitePortfolio/precache-manifest.058af756bd2ef0ebede5054af64f2565.js",
+    "precache-manifest.497560d6868e65d2ea35552a74e0f439.js": "/SitePortfolio/precache-manifest.497560d6868e65d2ea35552a74e0f439.js",
     "service-worker.js": "/SitePortfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/SitePortfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.f31e24d1.chunk.css.map": "/SitePortfolio/static/css/main.f31e24d1.chunk.css.map",
+    "static/css/main.f5290fdc.chunk.css.map": "/SitePortfolio/static/css/main.f5290fdc.chunk.css.map",
     "static/js/2.da8be19c.chunk.js.LICENSE.txt": "/SitePortfolio/static/js/2.da8be19c.chunk.js.LICENSE.txt",
     "static/media/Atlantic_Caraibes.jpg": "/SitePortfolio/static/media/Atlantic_Caraibes.e840a5a6.jpg",
     "static/media/Resume-LABRY.pdf": "/SitePortfolio/static/media/Resume-LABRY.129f8caf.pdf",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.c9f10b5a.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.da8be19c.chunk.js",
-    "static/css/main.f31e24d1.chunk.css",
+    "static/css/main.f5290fdc.chunk.css",
     "static/js/main.7ad2162f.chunk.js"
   ]
 }
