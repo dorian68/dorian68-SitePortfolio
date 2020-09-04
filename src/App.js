@@ -1,45 +1,78 @@
 import React from 'react';
 import logo from './logo.svg';
+import About from './About';
+import Project1 from './Project1';
+import Projects from './Projects';
+import Home from './Home';
+import Hobbies from './Hobbies';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar,Nav,NavDropdown,Container,Col,Row} from 'react-bootstrap';
+import { HashRouter as Router, Route, Switch} from "react-router-dom";
+  
 function App() {
   return (
     <div className="App">
       <header className="App-header">    
-      <link href="/assets/css/material-kit.css?v=2.0.4" rel="stylesheet" />
-  
-        <p>
-          Website in construction
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <a className="App-link" href="https://reactjs.org" target="_blank"rel="noopener noreferrer"/>
       </header>
       <body>
-        <a>Salut Dorian</a>
+      <Router basename={process.env.PUBLIC_URL}>
 
- <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-<script src="assets/js/plugins/moment.min.js"></script>
-
-<script src="assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-
-<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<script src="assets/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
-      </body>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fluid>
+            <Navbar.Brand href="/Home">
+              <img alt="" src={logo} width="30" height="30" className="d-inline-block align-top"/>{' '}
+                Dorian LABRY</Navbar.Brand>
+               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+               <Navbar.Collapse id="responsive-navbar-nav">
+               <Nav className="mr-auto">
+                <Nav.Link href="#Home">Home</Nav.Link>
+                <Nav.Link href="#About">About</Nav.Link>
+                 <NavDropdown title="Projects" id="nav-dropdown">
+                  <NavDropdown.Item href="#Project1">Black and Scholes Pricer</NavDropdown.Item>
+                  <NavDropdown.Item disabled="true">Python: the commercial traveler (Incoming)</NavDropdown.Item>
+                  <NavDropdown.Item disabled="true">Machine Learning: Logistic regression (Incoming)</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item disabled="true" href="#Projects">See all</NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="#Hobbies">Hobbies</Nav.Link>
+              </Nav>
+              </Navbar.Collapse>
+          </Navbar>
+        <Switch>
+          <Route path="/About" exact component={About}  />
+          <Route path="/Hobbies" exact component={Hobbies}  />
+          <Route path="/Project1" exact component={Project1} />
+          <Route path="/Projects" exact component={Projects} />
+          <Route path="/Home" exact component={Home} />
+          <Route path="/" exact component={Home} />
+        </Switch>
+      </Router>
+    </body>
+    <footer>
+      <Container className="footer" fluid>
+        <Row>
+          <Col sm={9}>
+             <p style={{marginLeft:"15%",marginTop:"5%",textAlign:"Left"}}>
+              <tr><h4>See more</h4></tr>
+              <tr>About</tr>
+              <tr>Projects</tr>
+              <tr>Hobbies</tr>
+              <tr>Check out my:</tr>
+              <tr>
+                <li>Resume</li>
+                <li>Projects page</li>
+              </tr>
+            </p>
+           </Col>
+          <Col sm={3}>
+            <p style={{marginTop:"90%",marginBottom:"10%",fontSize:"80%"}}>© 2020 Proudly created by Dorian LABRY</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
     </div>
   );
 }
-
+ 
 export default App;

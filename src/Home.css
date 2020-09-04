@@ -1,0 +1,36 @@
+.conteneur {
+    width: auto;
+}
+
+.square {
+    margin-top: auto;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-radius: 5px;
+}
+
+.square2 {
+    margin-top: 2%;
+}
+
+.image-border {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+
+.cont2 {
+    background-color: #343A40;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    color: white;
+    font: Bookman Old Style;
+}

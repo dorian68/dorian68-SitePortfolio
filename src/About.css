@@ -1,0 +1,21 @@
+.cardlist{
+    margin-top: 20px;
+    width: fit-content;
+  }
+
+.title{
+    border-bottom: solid 1px black;
+}
+
+.square {
+  margin-top: 1.5%;
+}
+
+.cont {
+  background-color: #343A40;  
+  font: Bookman Old Style;
+  margin-top: 5%;
+  border-radius: 5px;
+  color: white;
+  height: 10%;
+}
