@@ -30,7 +30,7 @@ export default function Hobbies() {
             <Row >
                 <Col>
                     <p>Straight from my window in the plane and somewhere above the the caribbean. I had to capture these shades of blue.
-                        No photoshop involved I swear !!
+                        No photoshop involved I swear !
                     </p>
                 </Col>
                 <Col>
