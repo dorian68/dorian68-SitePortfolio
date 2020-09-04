@@ -53,7 +53,7 @@ export default function Project1() {
             <SyntaxHighlighter className="code1" language="python" style={docco}>
                 {BSformula}
             </SyntaxHighlighter>
-            <h2>2/Formulas</h2> 
+            <h2>2/Formulas </h2> 
             <p>As stated previously,the Black Scholes model takes the assumption that the underlying's returns are log-normal.
                 therefore the assets returns are given by the following stochastic partial equation:
                 <BlockMath math="\frac{dSt}{St}=\mu dt + \sigma dWt"/>
