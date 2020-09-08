@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/perso/static/css/main.159e0950.chunk.css",
-    "main.js": "/perso/static/js/main.97f1dadf.chunk.js",
-    "main.js.map": "/perso/static/js/main.97f1dadf.chunk.js.map",
+    "main.css": "/perso/static/css/main.d1ae3d14.chunk.css",
+    "main.js": "/perso/static/js/main.8785b5e9.chunk.js",
+    "main.js.map": "/perso/static/js/main.8785b5e9.chunk.js.map",
     "runtime-main.js": "/perso/static/js/runtime-main.1004fd25.js",
     "runtime-main.js.map": "/perso/static/js/runtime-main.1004fd25.js.map",
     "static/css/2.f20dfd8e.chunk.css": "/perso/static/css/2.f20dfd8e.chunk.css",
-    "static/js/2.e6984afb.chunk.js": "/perso/static/js/2.e6984afb.chunk.js",
-    "static/js/2.e6984afb.chunk.js.map": "/perso/static/js/2.e6984afb.chunk.js.map",
+    "static/js/2.ec13dd12.chunk.js": "/perso/static/js/2.ec13dd12.chunk.js",
+    "static/js/2.ec13dd12.chunk.js.map": "/perso/static/js/2.ec13dd12.chunk.js.map",
     "index.html": "/perso/index.html",
-    "precache-manifest.5def7c16fffbf578ffa2c992eb71013f.js": "/perso/precache-manifest.5def7c16fffbf578ffa2c992eb71013f.js",
+    "precache-manifest.d4a9d09a418eefb1aed57bf5034a0673.js": "/perso/precache-manifest.d4a9d09a418eefb1aed57bf5034a0673.js",
     "service-worker.js": "/perso/service-worker.js",
     "static/css/2.f20dfd8e.chunk.css.map": "/perso/static/css/2.f20dfd8e.chunk.css.map",
-    "static/css/main.159e0950.chunk.css.map": "/perso/static/css/main.159e0950.chunk.css.map",
-    "static/js/2.e6984afb.chunk.js.LICENSE.txt": "/perso/static/js/2.e6984afb.chunk.js.LICENSE.txt",
+    "static/css/main.d1ae3d14.chunk.css.map": "/perso/static/css/main.d1ae3d14.chunk.css.map",
+    "static/js/2.ec13dd12.chunk.js.LICENSE.txt": "/perso/static/js/2.ec13dd12.chunk.js.LICENSE.txt",
     "static/media/Atlantic_Caraibes.jpg": "/perso/static/media/Atlantic_Caraibes.e840a5a6.jpg",
     "static/media/katex.min.css": "/perso/static/media/KaTeX_Typewriter-Regular.f43e8696.woff2",
     "static/media/Resume-LABRY.pdf": "/perso/static/media/Resume-LABRY.129f8caf.pdf",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.1004fd25.js",
     "static/css/2.f20dfd8e.chunk.css",
-    "static/js/2.e6984afb.chunk.js",
-    "static/css/main.159e0950.chunk.css",
-    "static/js/main.97f1dadf.chunk.js"
+    "static/js/2.ec13dd12.chunk.js",
+    "static/css/main.d1ae3d14.chunk.css",
+    "static/js/main.8785b5e9.chunk.js"
   ]
 }
