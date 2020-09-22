@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ec3cc7fae42fbf4902f2251f4aadc22",
+    "revision": "0f664566a8c7d9dc18576bea2c5cf134",
     "url": "/perso/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perso/static/css/2.f20dfd8e.chunk.css"
   },
   {
-    "revision": "943d0975313a9bc3f734",
+    "revision": "27fac396c47bea949385",
     "url": "/perso/static/css/main.7e924f12.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perso/static/js/2.ec13dd12.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "943d0975313a9bc3f734",
-    "url": "/perso/static/js/main.9e479e01.chunk.js"
+    "revision": "27fac396c47bea949385",
+    "url": "/perso/static/js/main.6a691a69.chunk.js"
   },
   {
     "revision": "2172543dff3b9f97fb58",
@@ -272,8 +272,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perso/static/media/liberty_statue.4bfabe57.jpg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/perso/static/media/logo.5d5d9eef.svg"
+    "revision": "6048fb4b0bfb31899f82ea3d7bc4e198",
+    "url": "/perso/static/media/logo.6048fb4b.svg"
   },
   {
     "revision": "b428021623230813a597822af1a5def7",
