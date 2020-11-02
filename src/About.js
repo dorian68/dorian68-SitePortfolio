@@ -1,7 +1,10 @@
 import React from 'react';
 import './About.css';
-import { Card } from 'react-bootstrap';
-import me from './images/me2.png'
+import { Card,CardDeck,CardGroup } from 'react-bootstrap';
+import me from './images/me2.png';
+import bmc_certificate from './Docs/BMC_certificate.pdf';
+import python_soloL_certificate from './Docs/Solo_learn_Python.pdf';
+import ML_soloL_certificate  from './Docs/Solo_learn_ML.pdf';
 import { Container,Accordion,Button,Row,Col } from 'react-bootstrap';
 
 const SummaryText = "Currently listening to the market following a 12 month VIE in New York City at\n" +
@@ -43,8 +46,7 @@ const Col2WidthOffset = 4;
 export default function About() {
     return (
 <Container style={{marginBottom:"10%", marginLeft:"10%", marginRight:"auto", width:"80%"}}>   
-
-            <Row>
+            {/* <Row>
             <Container className="cont">
                 <Row className="">
                     <Col lg={{span: 4,offset:0}} style={{marginTop:"20px"}}>
@@ -111,6 +113,96 @@ export default function About() {
     </Container>
             </Col>
         </Row>
+    <br></br> */}
+
+        <Row style={{marginTop:"3%"}}>
+        <Col lg={9}>
+        <h2>Introduction</h2>
+        <p>Hello I am Dorian, I have a master degree from <a href="https://www.esilv.fr/">ESILV</a> in financial engineering and I choosed to specialize in financial market.
+        ESILV financial engineering diploma focuses on training qualified individual on digital profession through computer science and mathematics courses.
+        </p>
+        <p>
+        I have experiences :
+        <li>as an intern, monitoring the real-times risk and exposures of the fixed income business line of societe general providing real-time report and end of day pnl to the traders and the top managment.</li>
+        <li>as full time employee in a 12 months fixed term contract, producing the official risk metrics ( VaR, SVaR and stress test) on the amer and latam perimeters of societe generale.</li>
+        </p>
+        <p>
+        I have programming skills in both python and vba as I was during my previous experiences in charge of creating, deploying and maintaining risk and pnl reporting tools.
+        </p>
+        </Col>
+        <Col lg={3} >
+        <Row style={{backgroundColor:"rgb(52, 58, 64)",borderRadius:"15px",borderWidth:"1em",color:"white"}}>
+        <Container>
+        <h2>Contact</h2>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/dorian-labry-a29109103">Dorian LABRY</a></li>
+        <li>Github: <a href="https://github.com/dorian68">dorian labry</a></li>
+        <li>Hackerrank: <a href="https://www.hackerrank.com/labrydorian_mpsi">labrydorian_mpsi</a></li>
+        <li>Kaggle: <a href="https://www.kaggle.com/dorianlabry">dorianlabry</a></li>
+        </Container>
+        </Row>
+        <Row></Row>
+        </Col>
+        </Row>
+        <h2>Certifications: </h2>
+        <CardDeck>
+         <Card>
+            <Card.Header>Bloomberg market concept</Card.Header>
+            <Card.Body>
+                <blockquote>
+                <p>
+                    {' '}
+                    Certificate from bloomberg platform covering: 
+                    <li>Economic Indicators</li>
+                    <li>Currencies</li>
+                    <li>Fixed Income</li>
+                    <li>Equities</li> {' '}
+                </p>
+                <footer className="blockquote-footer">
+                    see the <a href={bmc_certificate}> certificate </a>
+                </footer>
+                </blockquote>
+            </Card.Body>
+        </Card>
+        <Card>
+            <Card.Header>Solo learn: Python</Card.Header>
+            <Card.Body>
+                <blockquote>
+                <p>
+                    {' '}
+                    Python certificate from Solo Learn which provides lessons on:
+                    <li>Functions and modules</li> 
+                    <li>Exceptions and files</li>
+                    <li>Functional Programming</li>
+                    <li>Object oriented programming in Python</li>
+                    <li>Regular expressions</li>
+                    <li>Pythonicness ans packaging</li>{' '}
+                </p>
+                <footer className="blockquote-footer">
+                    see the <a href={python_soloL_certificate}> certificate </a>
+                </footer>
+                </blockquote>
+            </Card.Body>
+        </Card>
+        <Card>
+            <Card.Header>Machine Learning</Card.Header>
+            <Card.Body>
+                <blockquote>
+                <p>
+                    {' '}
+                    Machine learning certificate from solo which provides lessons on:
+                    <li>Introduction to classification</li>
+                    <li>Model evaluation</li> 
+                    <li>Decision tree model</li>
+                    <li>Random forest model</li>
+                    <li>Neural networks</li>{' '}
+                </p>
+                <footer className="blockquote-footer">
+                    see the <a href={ML_soloL_certificate}> certificate </a>
+                </footer>
+                </blockquote>
+            </Card.Body>
+        </Card>
+        </CardDeck>
  </Container>
     )
 }

@@ -4,7 +4,6 @@ import me from './images/me.png';
 import './Home.css';
 import resume from './Docs/Resume-LABRY.pdf';
 import { Container,Row,Col,Jumbotron } from 'react-bootstrap';
-import Projects from './Projects';
 
 const SummaryText = "Currently listening to the market following a 12 month VIE in New York City at\n" +
                     "Societe Generale Americas.\n" +
@@ -21,7 +20,7 @@ export default function Home() {
           <Row>
           <Col sm={8}>
             <h1>Welcome to my Web Page !</h1>
-            <p>I am Dorian Labry and I hold an Engineer Degree with a specialisation in Financial Markets</p>
+            <p>I am Dorian Labry and I hold an Engineer Degree in financial engineering with a specialisation in Financial Markets</p>
             <a>This website aims to</a>
             <li>Provide more details about my background and my experiences</li>
             <li>Present my skills set throughout Projects </li>
@@ -54,7 +53,7 @@ export default function Home() {
         </p>
         <p>
           <tr><a href="">Website:</a></tr>
-          <tr><a href="https://dorian68.github.io/SitePortfolio/">https://dorian68.github.io/SitePortfolio</a></tr>
+          <tr><a href="https://dorianlabry.fr/">dorianlabry.fr</a></tr>
         </p>
         <p>
           <tr><a href="">Cell:</a></tr>

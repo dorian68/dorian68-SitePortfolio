@@ -4,7 +4,7 @@ import graph from './images/Share100.jpg';
 import pricer from './images/pricer.PNG'
 import 'katex/dist/katex.min.css';
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 import { BlockMath, InlineMath } from 'react-katex';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 /* sommaire à récupérer:
@@ -20,36 +20,53 @@ const BSformula = "def BlackScholes(S,K,r,T,sigma):\n" +
 export default function Project1() {
     return (
         
-        <Container className="body" >
-            <h1>Black and Scholes Pricer</h1>
-            <h2>Summary</h2>
+        <Container>
+            <Jumbotron style={{marginTop:"3%"}} >
             <Container>
+                <h1>Black and Scholes Pricer</h1>
+                <br></br>
                 <Row>
                     <Col md={{span: 5,offset:0}}>
-                        <p> Visit my Black and Scholes pricer web app fully powered by Django, the Python Web framework : <a href="https://black-scholes-pricer.herokuapp.com/">European Option pricer </a></p>
+                        <Row><p> 
+                            <h2>Summary</h2>
+                            <a>Visit my Black and Scholes pricer web app fully powered by Django, the Python Web framework : <a href="https://black-scholes-pricer.herokuapp.com/">European Option pricer</a> ( Right click then open ) </a>
+                            </p>
+                        </Row>
+                        <Row><p>
+                                <h3>Description</h3>
+                                <a>This web app is created the Python web framework Django meaning the back-end is 100% Python.</a>
+                                <a>Features:
+                                    <li>Price a European option using Black and Scholes model</li>
+                                    <li>Plot the implied volatility versus the strike for stock options using yahoo finance's datas</li>
+                                    <li>Implement an option strategy and plot it's payoff. ( incoming: price the strategy using real-time stock price</li>
+                                </a>
+                            </p>
+                        </Row>
                     </Col>
                     <Col md={{span: 7,offset:0}}>
                         <img src={pricer} width="90%"></img>
                     </Col>
                 </Row>
             </Container>
+            </Jumbotron>
+            <Jumbotron style={{marginTop:"3%"}} >
             <br></br>
             <h2>1/hypothesis</h2>
-            <p><br/>The purpose of this project is to implement a python based option Pricer using the Black and Scholes Model</p>
+            <p><br/>The purpose of this project is to implement a python based option pricer using the Black and Scholes model.</p>
 
 
             <h4>Reminder, What are the Black and Scholes assumptions</h4>
-            <p>In order to use the Black and Scholes model to price a european option, we will need to make some assumptions first to make sure the market is complete</p>
-            <li>There is no transactions cost</li>
+            <p>This model is only valid to price a european options, we make the assumptions that:
+            <li>There are no transaction costs</li>
             <li>The risk-free rate is constant</li>
             <li>Our underlying is not paying dividend</li>
             <li>The volatility of our underlying asset is constant</li>
-            <li>The Black and Scholes model assumes that the asset's return are log-normal</li>
-            
+            <li>The asset's returns are log-normal</li>
+            </p>
             <img src={graph} width="80%"></img>
 
-            <p>The Black and Scholes model provides an explicit formula for the price of a European option<br/></p>
-
+            <p>The Black and Scholes model provides an explicit formula for the price of a European option</p>
+ 
             <SyntaxHighlighter className="code1" language="python" style={docco}>
                 {BSformula}
             </SyntaxHighlighter>
@@ -88,9 +105,8 @@ export default function Project1() {
                 Is the volatility higher for call than it is for put? is the volatility of deeply out-the-money options higher than deeply in-the-money options ?
                 This is the kind of informations we can get by graphing the implied volatility against the strike.  
             </p>
-            <h3>4.1/Application to real data</h3>
-            <h2>5/Pros ands cons</h2>
-
+            <p>Visit the plot section of my <a href="https://black-scholes-pricer.herokuapp.com/">European Option pricer </a> to have a view of the volatility smile on stock market</p>
+            </Jumbotron>
         </Container>        
     )
 }
