@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/perso/static/css/main.7e924f12.chunk.css",
-    "main.js": "/perso/static/js/main.bbcab6eb.chunk.js",
-    "main.js.map": "/perso/static/js/main.bbcab6eb.chunk.js.map",
+    "main.js": "/perso/static/js/main.edc7501d.chunk.js",
+    "main.js.map": "/perso/static/js/main.edc7501d.chunk.js.map",
     "runtime-main.js": "/perso/static/js/runtime-main.1004fd25.js",
     "runtime-main.js.map": "/perso/static/js/runtime-main.1004fd25.js.map",
     "static/css/2.f20dfd8e.chunk.css": "/perso/static/css/2.f20dfd8e.chunk.css",
-    "static/js/2.ec13dd12.chunk.js": "/perso/static/js/2.ec13dd12.chunk.js",
-    "static/js/2.ec13dd12.chunk.js.map": "/perso/static/js/2.ec13dd12.chunk.js.map",
+    "static/js/2.59935784.chunk.js": "/perso/static/js/2.59935784.chunk.js",
+    "static/js/2.59935784.chunk.js.map": "/perso/static/js/2.59935784.chunk.js.map",
     "index.html": "/perso/index.html",
-    "precache-manifest.589440fe9c41d2478eec129483c226f3.js": "/perso/precache-manifest.589440fe9c41d2478eec129483c226f3.js",
+    "precache-manifest.b2ad23f9ac3c7f26b1543c7be9cbb08f.js": "/perso/precache-manifest.b2ad23f9ac3c7f26b1543c7be9cbb08f.js",
     "service-worker.js": "/perso/service-worker.js",
     "static/css/2.f20dfd8e.chunk.css.map": "/perso/static/css/2.f20dfd8e.chunk.css.map",
     "static/css/main.7e924f12.chunk.css.map": "/perso/static/css/main.7e924f12.chunk.css.map",
-    "static/js/2.ec13dd12.chunk.js.LICENSE.txt": "/perso/static/js/2.ec13dd12.chunk.js.LICENSE.txt",
+    "static/js/2.59935784.chunk.js.LICENSE.txt": "/perso/static/js/2.59935784.chunk.js.LICENSE.txt",
     "static/media/Atlantic_Caraibes.jpg": "/perso/static/media/Atlantic_Caraibes.e840a5a6.jpg",
+    "static/media/BMC_certificate.pdf": "/perso/static/media/BMC_certificate.72ea829d.pdf",
     "static/media/katex.min.css": "/perso/static/media/KaTeX_Typewriter-Regular.f43e8696.woff2",
-    "static/media/Resume-LABRY.pdf": "/perso/static/media/Resume-LABRY.129f8caf.pdf",
+    "static/media/Resume-LABRY.pdf": "/perso/static/media/Resume-LABRY.b0a16716.pdf",
     "static/media/Share100.jpg": "/perso/static/media/Share100.731d6606.jpg",
+    "static/media/Solo_learn_ML.pdf": "/perso/static/media/Solo_learn_ML.cd8b4d3e.pdf",
+    "static/media/Solo_learn_Python.pdf": "/perso/static/media/Solo_learn_Python.82e3cd4a.pdf",
     "static/media/liberty_statue.jpg": "/perso/static/media/liberty_statue.4bfabe57.jpg",
     "static/media/logo.svg": "/perso/static/media/logo.5d5d9eef.svg",
     "static/media/me.png": "/perso/static/media/me.b4280216.png",
@@ -30,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.1004fd25.js",
     "static/css/2.f20dfd8e.chunk.css",
-    "static/js/2.ec13dd12.chunk.js",
+    "static/js/2.59935784.chunk.js",
     "static/css/main.7e924f12.chunk.css",
-    "static/js/main.bbcab6eb.chunk.js"
+    "static/js/main.edc7501d.chunk.js"
   ]
 }

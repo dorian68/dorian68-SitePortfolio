@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39cdc3cabda91af2160d3e981682c124",
+    "revision": "1896595d49184cfbef70cf7b9b450d2e",
     "url": "/perso/index.html"
   },
   {
-    "revision": "6dc6cdb4416c2f420692",
+    "revision": "47d7b589602c3e883b7f",
     "url": "/perso/static/css/2.f20dfd8e.chunk.css"
   },
   {
-    "revision": "8d9b2d4d56797d0a4a0c",
+    "revision": "dfe32e8b0d1bcc357ea9",
     "url": "/perso/static/css/main.7e924f12.chunk.css"
   },
   {
-    "revision": "6dc6cdb4416c2f420692",
-    "url": "/perso/static/js/2.ec13dd12.chunk.js"
+    "revision": "47d7b589602c3e883b7f",
+    "url": "/perso/static/js/2.59935784.chunk.js"
   },
   {
     "revision": "02319550b42b2562b0f0cbc36f2d31db",
-    "url": "/perso/static/js/2.ec13dd12.chunk.js.LICENSE.txt"
+    "url": "/perso/static/js/2.59935784.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d9b2d4d56797d0a4a0c",
-    "url": "/perso/static/js/main.bbcab6eb.chunk.js"
+    "revision": "dfe32e8b0d1bcc357ea9",
+    "url": "/perso/static/js/main.edc7501d.chunk.js"
   },
   {
     "revision": "2172543dff3b9f97fb58",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e840a5a632c582be81b6c7daaa58ed33",
     "url": "/perso/static/media/Atlantic_Caraibes.e840a5a6.jpg"
+  },
+  {
+    "revision": "72ea829dba354c93f55036452896ce47",
+    "url": "/perso/static/media/BMC_certificate.72ea829d.pdf"
   },
   {
     "revision": "3d8245dcb4489694a6a263b05c1cca01",
@@ -260,12 +264,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perso/static/media/KaTeX_Typewriter-Regular.f43e8696.woff2"
   },
   {
-    "revision": "129f8caf6fad1f8282e564f42376c545",
-    "url": "/perso/static/media/Resume-LABRY.129f8caf.pdf"
+    "revision": "b0a167164ff2be33a2c41f4037719862",
+    "url": "/perso/static/media/Resume-LABRY.b0a16716.pdf"
   },
   {
     "revision": "731d6606c6aacad4b8650cb77bc6c526",
     "url": "/perso/static/media/Share100.731d6606.jpg"
+  },
+  {
+    "revision": "cd8b4d3e669f8af9dad196440e84df37",
+    "url": "/perso/static/media/Solo_learn_ML.cd8b4d3e.pdf"
+  },
+  {
+    "revision": "82e3cd4adc036394192b637aea49d22c",
+    "url": "/perso/static/media/Solo_learn_Python.82e3cd4a.pdf"
   },
   {
     "revision": "4bfabe5771f3ee1e085977e0e715d43b",
