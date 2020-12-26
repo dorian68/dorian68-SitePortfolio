@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3056724f5443a1b6c0c652996e621ff1",
+    "revision": "092d6052662376e8a4f09bcf0286249d",
     "url": "/perso/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perso/static/css/2.f20dfd8e.chunk.css"
   },
   {
-    "revision": "963b28be4fa59a816597",
+    "revision": "f1a8720ec07f52f962a5",
     "url": "/perso/static/css/main.7e924f12.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perso/static/js/2.f044ea21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "963b28be4fa59a816597",
-    "url": "/perso/static/js/main.27158827.chunk.js"
+    "revision": "f1a8720ec07f52f962a5",
+    "url": "/perso/static/js/main.32d763b0.chunk.js"
   },
   {
     "revision": "2172543dff3b9f97fb58",
@@ -264,8 +264,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perso/static/media/KaTeX_Typewriter-Regular.f43e8696.woff2"
   },
   {
-    "revision": "b0a167164ff2be33a2c41f4037719862",
-    "url": "/perso/static/media/Resume-LABRY.b0a16716.pdf"
+    "revision": "80ed6746617a41572fd37f3003ac19da",
+    "url": "/perso/static/media/Resume-LABRY last version.80ed6746.pdf"
   },
   {
     "revision": "731d6606c6aacad4b8650cb77bc6c526",
