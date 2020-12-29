@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/perso/static/css/main.7e924f12.chunk.css",
-    "main.js": "/perso/static/js/main.f7db7f96.chunk.js",
-    "main.js.map": "/perso/static/js/main.f7db7f96.chunk.js.map",
+    "main.js": "/perso/static/js/main.c6267431.chunk.js",
+    "main.js.map": "/perso/static/js/main.c6267431.chunk.js.map",
     "runtime-main.js": "/perso/static/js/runtime-main.1004fd25.js",
     "runtime-main.js.map": "/perso/static/js/runtime-main.1004fd25.js.map",
     "static/css/2.f20dfd8e.chunk.css": "/perso/static/css/2.f20dfd8e.chunk.css",
-    "static/js/2.f044ea21.chunk.js": "/perso/static/js/2.f044ea21.chunk.js",
-    "static/js/2.f044ea21.chunk.js.map": "/perso/static/js/2.f044ea21.chunk.js.map",
+    "static/js/2.7f36995b.chunk.js": "/perso/static/js/2.7f36995b.chunk.js",
+    "static/js/2.7f36995b.chunk.js.map": "/perso/static/js/2.7f36995b.chunk.js.map",
     "index.html": "/perso/index.html",
-    "precache-manifest.77825f51c812f46a9eb9922682af9441.js": "/perso/precache-manifest.77825f51c812f46a9eb9922682af9441.js",
+    "precache-manifest.4e4e095d48d5b832b2dec304b762a3c7.js": "/perso/precache-manifest.4e4e095d48d5b832b2dec304b762a3c7.js",
     "service-worker.js": "/perso/service-worker.js",
     "static/css/2.f20dfd8e.chunk.css.map": "/perso/static/css/2.f20dfd8e.chunk.css.map",
     "static/css/main.7e924f12.chunk.css.map": "/perso/static/css/main.7e924f12.chunk.css.map",
-    "static/js/2.f044ea21.chunk.js.LICENSE.txt": "/perso/static/js/2.f044ea21.chunk.js.LICENSE.txt",
+    "static/js/2.7f36995b.chunk.js.LICENSE.txt": "/perso/static/js/2.7f36995b.chunk.js.LICENSE.txt",
     "static/media/Atlantic_Caraibes.jpg": "/perso/static/media/Atlantic_Caraibes.e840a5a6.jpg",
     "static/media/BMC_certificate.pdf": "/perso/static/media/BMC_certificate.72ea829d.pdf",
     "static/media/katex.min.css": "/perso/static/media/KaTeX_Typewriter-Regular.f43e8696.woff2",
@@ -22,6 +22,7 @@
     "static/media/Solo_learn_C++.pdf": "/perso/static/media/Solo_learn_C++.23b6ab03.pdf",
     "static/media/Solo_learn_ML.pdf": "/perso/static/media/Solo_learn_ML.cd8b4d3e.pdf",
     "static/media/Solo_learn_Python.pdf": "/perso/static/media/Solo_learn_Python.82e3cd4a.pdf",
+    "static/media/VaR.png": "/perso/static/media/VaR.51e15f85.png",
     "static/media/liberty_statue.jpg": "/perso/static/media/liberty_statue.4bfabe57.jpg",
     "static/media/logo.svg": "/perso/static/media/logo.5d5d9eef.svg",
     "static/media/me.png": "/perso/static/media/me.b4280216.png",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.1004fd25.js",
     "static/css/2.f20dfd8e.chunk.css",
-    "static/js/2.f044ea21.chunk.js",
+    "static/js/2.7f36995b.chunk.js",
     "static/css/main.7e924f12.chunk.css",
-    "static/js/main.f7db7f96.chunk.js"
+    "static/js/main.c6267431.chunk.js"
   ]
 }
