@@ -3,14 +3,28 @@ import logo from './logo.svg';
 import About from './About';
 import Project1 from './Project1';
 import Projects from './Projects';
+import Project2 from './Project2';
+import Project3 from './Project3';
+import Project4 from './Project4';
 import Home from './Home';
 import Hobbies from './Hobbies';
+import ReactDOM from 'react-dom';
+import { createBrowserHistory } from 'history';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar,Nav,NavDropdown,Container,Col,Row} from 'react-bootstrap';
 import { HashRouter as Router, Route, Switch} from "react-router-dom";
-  
+import ReactGA from 'react-ga';
+
+const trackingId = "G-80JL2R21J8"; // Initialize my Google Analytics tracking ID
+
+function InitializeAnalytics(){
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/Home");
+}
+
 function App() {
+  InitializeAnalytics()
   return (
     <div className="App">
       <header className="App-header">    
@@ -30,8 +44,9 @@ function App() {
                 <Nav.Link href="#About">About</Nav.Link>
                  <NavDropdown title="Projects" id="nav-dropdown">
                   <NavDropdown.Item href="#Project1">Black and Scholes Pricer</NavDropdown.Item>
-                  <NavDropdown.Item disabled="true">Python: the commercial traveler (Incoming)</NavDropdown.Item>
-                  <NavDropdown.Item disabled="true">Machine Learning: Logistic regression (Incoming)</NavDropdown.Item>
+                  <NavDropdown.Item href="#Project2">Value at Risk: Monte Carlo</NavDropdown.Item>
+                  <NavDropdown.Item href="#Project3">Machine Learning: Logistic regression (In progress)</NavDropdown.Item>
+                  <NavDropdown.Item href="#Project4">Python: the commercial traveler (In progress)</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item disabled="true" href="#Projects">See all</NavDropdown.Item>
                 </NavDropdown>
@@ -43,7 +58,9 @@ function App() {
           <Route path="/About" exact component={About}  />
           <Route path="/Hobbies" exact component={Hobbies}  />
           <Route path="/Project1" exact component={Project1} />
-          <Route path="/Projects" exact component={Projects} />
+          <Route path="/Project2" exact component={Project2} />
+          <Route path="/Project3" exact component={Project3} />
+          <Route path="/Project4" exact component={Project4} />
           <Route path="/Home" exact component={Home} />
           <Route path="/" exact component={Home} />
         </Switch>

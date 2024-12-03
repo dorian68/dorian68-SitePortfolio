@@ -5,6 +5,7 @@ import me from './images/me2.png';
 import bmc_certificate from './Docs/BMC_certificate.pdf';
 import python_soloL_certificate from './Docs/Solo_learn_Python.pdf';
 import ML_soloL_certificate  from './Docs/Solo_learn_ML.pdf';
+import Cpp_soloL_certificate from "./Docs/Solo_learn_C++.pdf";
 import { Container,Accordion,Button,Row,Col } from 'react-bootstrap';
 
 const SummaryText = "Currently listening to the market following a 12 month VIE in New York City at\n" +
@@ -125,6 +126,7 @@ export default function About() {
         I have experiences :
         <li>as an intern, monitoring the real-times risk and exposures of the fixed income business line of societe general providing real-time report and end of day pnl to the traders and the top managment.</li>
         <li>as full time employee in a 12 months fixed term contract, producing the official risk metrics ( VaR, SVaR and stress test) on the amer and latam perimeters of societe generale.</li>
+        <li>currently as a Financial controler monitoring and steering assets for Axa med portfolio and managing the differents fees of the activity</li>
         </p>
         <p>
         I have programming skills in both python and vba as I was during my previous experiences in charge of creating, deploying and maintaining risk and pnl reporting tools.
@@ -143,7 +145,7 @@ export default function About() {
         <Row></Row>
         </Col>
         </Row>
-        <h2>Certifications: </h2>
+        <h2>Certificates: </h2>
         <CardDeck>
          <Card>
             <Card.Header>Bloomberg market concept</Card.Header>
@@ -199,6 +201,27 @@ export default function About() {
                 <footer className="blockquote-footer">
                     see the <a href={ML_soloL_certificate}> certificate </a>
                 </footer>
+                </blockquote>
+            </Card.Body>
+        </Card>
+        <Card>
+            <Card.Header>Coding in C++</Card.Header>
+            <Card.Body>
+                <blockquote>
+                    <p>
+                    {' '}
+                    certificate from Solo Learn which provides lessons on:
+                    <li>Understand the OOP paradigm</li>
+                    <li>Create class</li>
+                    <li>Overload an operator</li>
+                    <li>Working with the STL</li>
+                    <li>Templates, Exceptions and Files</li>
+                    {' '}
+                    </p>
+                    <footer className="blockquote-footer">
+
+                    </footer>
+                    see the <a href={Cpp_soloL_certificate}> certificate </a>
                 </blockquote>
             </Card.Body>
         </Card>

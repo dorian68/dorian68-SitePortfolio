@@ -29,7 +29,7 @@ export default function Project1() {
                     <Col md={{span: 5,offset:0}}>
                         <Row><p> 
                             <h2>Summary</h2>
-                            <a>Visit my Black and Scholes pricer web app fully powered by Django, the Python Web framework : <a href="https://black-scholes-pricer.herokuapp.com/">European Option pricer</a> ( Right click then open ) </a>
+                            <a>Visit my Black and Scholes pricer web app fully powered by Django, the Python web framework : <a href="https://black-scholes-pricer.herokuapp.com/">European Option pricer</a> ( Right click then open ) </a>
                             </p>
                         </Row>
                         <Row><p>

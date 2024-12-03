@@ -1,8 +1,8 @@
 import React from 'react'
 import mini from './images/mini2.jpg';
-import me from './images/me.png';
+import me from './images/PHOTO_PRO.jpg';
 import './Home.css';
-import resume from './Docs/Resume-LABRY.pdf';
+import resume from './Docs/Resume-LABRY last version.pdf';
 import { Container,Row,Col,Jumbotron } from 'react-bootstrap';
 
 const SummaryText = "Currently listening to the market following a 12 month VIE in New York City at\n" +
@@ -20,10 +20,10 @@ export default function Home() {
           <Row>
           <Col sm={8}>
             <h1>Welcome to my Web Page !</h1>
-            <p>I am Dorian Labry and I hold an Engineer Degree in financial engineering with a specialisation in Financial Markets</p>
+            <p>With extensive experience on trading floors of leading French banks, I’ve built expertise in risk management, quantitative modeling, and performance optimization. I hold an engineering degree from ESILV, known for its excellence in financial engineering, and an Executive Master’s from Université Paris-Dauphine and ENSAE Paris, two prestigious institutions in economics and finance. I now help organizations optimize financial performance and manage risks in an ever-changing environment.</p>
             <a>This website aims to</a>
             <li>Provide more details about my background and my experiences</li>
-            <li>Present my skills set throughout Projects </li>
+            <li>Present my skills set throughout projects </li>
             <li>
                 For more, check out my <a href={resume}>resume</a>
             </li>
@@ -37,7 +37,7 @@ export default function Home() {
       <Container className="cont2">
       <Row className="square">
       <Col sm={4}>
-        <img className="image-border" src={me} width="auto"></img>
+        <img className="image-border" src={me} width="80%"></img>
       </Col>
       <Col className="square2" sm={4}>
         <h1 style={{fontSize:'100px'}}>Hello,</h1>
@@ -48,7 +48,8 @@ export default function Home() {
       <p>
           <tr><a href="">Available for:</a></tr>
           <tr>Market Risk roles</tr>
-          <tr>Python programming roles</tr>
+          <tr>Python developper roles</tr>
+          <tr>Quantitative developper roles</tr>
           <tr>Consulting</tr>
         </p>
         <p>
