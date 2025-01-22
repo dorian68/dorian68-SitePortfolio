@@ -47,6 +47,7 @@ function App() {
                   <NavDropdown.Item href="#Project2">Value at Risk: Monte Carlo</NavDropdown.Item>
                   <NavDropdown.Item href="#Project3">Machine Learning: Logistic regression (In progress)</NavDropdown.Item>
                   <NavDropdown.Item href="#Project4">Python: the commercial traveler (In progress)</NavDropdown.Item>
+                  <NavDropdown.Item href="#Project4">building an email management COM in C++</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item disabled="true" href="#Projects">See all</NavDropdown.Item>
                 </NavDropdown>
